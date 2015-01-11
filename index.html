@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+
+<script src="logic.js"></script>
+
+<title>Tic Tac Toe</title>
+
+</head>
+
+<body>
+
+<div id = "wrapper">
+
+
+<h1>Tic Tac Toe</h1>
+<h2>By: Caleb Phillips</h2>
+<h3>100518555</h3>
+
+<br>
+
+<div id = "messages"></div>
+
+<hr>
+
+<div id = "playAgainMessage"></div>
+<table class = "replaySelection">
+	<tr>
+		<td onclick = "playAgain(1)" id = "yes"></td>
+		<td onclick = "playAgain(0)" id = "no"></td>
+	</tr>
+</table>
+
+
+
+
+<div class = "gameBoard">
+<table>
+	<tr>
+		<td id = "box0" onclick="boxClicked(0)"></td>
+		<td id = "box1" onclick="boxClicked(1)"></td>
+		<td id = "box2" onclick="boxClicked(2)"></td>
+	</tr>
+
+	<tr>
+		<td id = "box3" onclick="boxClicked(3)"></td>
+		<td id = "box4" onclick="boxClicked(4)"></td>
+		<td id = "box5" onclick="boxClicked(5)"></td>
+	</tr>
+
+	<tr>
+		<td id = "box6" onclick="boxClicked(6)"></td>
+		<td id = "box7" onclick="boxClicked(7)"></td>
+		<td id = "box8" onclick="boxClicked(8)"></td>
+	</tr>
+</table>
+</div>
+
+</div>
+
+</body>
+
+</html>

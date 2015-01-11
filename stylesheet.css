@@ -1,0 +1,43 @@
+#wrapper{
+	width:487px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.gameBoard td {
+	font-size: 5em;
+	width: 2em;
+	height: 2em;
+	border: 2px solid black;
+	border-collapse:collapse;
+}
+
+.gameBoard table {
+	border-collapse: collapse;
+}
+
+#messages {
+	font-size: 4em;
+	font-weight: bold;
+}
+
+#playAgainMessage {
+	font-size: 1em;
+}
+
+table.replaySelection {
+	width: 100%;
+	text-align: center;
+}
+
+#yes {
+	font-size: 3em;
+	font-weight: bolder;
+	text-align: center;
+}
+
+#no {
+	font-size: 3em;
+	font-weight: bolder;
+	text-align: center;
+}
